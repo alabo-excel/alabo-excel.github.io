@@ -5,9 +5,12 @@
     <div class="container">
       <div class="row">
         <div class="col-lg-5 intro">
+          <img src="../assets/me.png" class="img mb-lg-1" alt="">
           <div class="intro-card">
             <div class="heading">
-              <h1>Hello <img src="../assets/wave.png" alt="">, I’m Alabo Excel.</h1>
+              <h1>
+                Hello <img src="../assets/wave.png" alt="" />, I’m Alabo Excel.
+              </h1>
             </div>
             <div class="bio-paragraph">
               <p>
@@ -261,12 +264,15 @@ export default {
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style>
+.bio-paragraph a{
+  text-decoration: underline
+}
 /* utilities */
 .mobile_top {
   display: none;
 }
 .container {
-  padding-top: 80px;
+  padding-top: 25px;
 }
 .intro {
   position: fixed;
@@ -276,12 +282,12 @@ export default {
 }
 
 .heading h1 {
-  font-size: 64px;
+  font-size: 55px;
   font-weight: bold;
 }
 
 .bio-paragraph {
-  margin-top: 32px;
+  margin-top: 12px;
   color: #fff;
   line-height: 28px;
 }
@@ -291,7 +297,7 @@ export default {
 
 /* NAV */
 .nav {
-  margin-top: 52px;
+  margin-top: 2px;
 }
 .nav ul {
   list-style: none;
@@ -347,7 +353,9 @@ export default {
   color: white;
   text-decoration: none;
 }
-
+.img{
+  width: 16%;
+}
 @media (min-width: 1200px) {
   .container {
     max-width: 1250px !important;
