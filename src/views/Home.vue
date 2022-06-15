@@ -14,7 +14,7 @@
             </div>
             <div class="bio-paragraph">
               <p>
-                I’m a Software Engineer, specifically a frontend web developer
+                I’m a Front-end web developer
                 based in Port Harcourt, Nigeria.
               </p>
               <p>
