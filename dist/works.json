@@ -1,0 +1,66 @@
+[
+  {
+    "name": "Extend Africa",
+    "link": "https://extend.africa/",
+    "techUsed": "Javascript (Vue), Vite, Bootstrap",
+    "description": "Extend Africa is a community for the immersive tech ecosystem in Africa, Check it out!!!",
+    "projectActive": false,
+    "github": "https://github.com/alabo-excel/extend-africa-web"
+  },
+  {
+    "name": "Accelerate Innovation Hub",
+    "link": "https://acceleratehub.co/",
+    "techUsed": "Vue (Nuxt), Css, Bootstrap",
+    "description": "Accelerate Innovation Hub is a tech community that facilitates development in technology, entrepreneurship, through mentorship, trainings, collaboration, events",
+    "projectActive": false,
+    "github": "https://github.com/AccelerateHub/acceleratehub-website"
+  },
+  {
+    "name": "Louis Whyte Portfolio",
+    "link": "https://louis-whyte.vercel.app/",
+    "techUsed": "Javascript (React.js), Tailwind, Framer Motion",
+    "description": "Personal Portfolio for Louis Whyte Jonah a UX designer that focuses on solving problems via design and technology.",
+    "projectActive": false,
+    "github": "https://github.com/LouiswhyteTM/Portfolio"
+  },
+  {
+    "name": "Trustpaddi Landing Page",
+    "link": "https://trust-paddi.netlify.app/",
+    "techUsed": "Javascript (Vue.js), Tailwind",
+    "description": "Trustpadd is an application that allows users to  Transact Securely with online vendors & marketplaces, gain customers trust.",
+    "projectActive": false,
+    "github": "https://github.com/savvilly/turstpaddi-website"
+  },
+  {
+    "name": "Virtual Employee landing page",
+    "link": "https://virtual-employee.vercel.app/",
+    "techUsed": "Javascript (react.js), Tailwind",
+    "description": "A landing page for a talents recuritment agency",
+    "projectActive": false,
+    "github": "https://github.com/alabo-excel/virtual-employee"
+  },
+  {
+    "name": "Randon Quote Generator",
+    "link": "https://random-quote-generator-alabo-excel.vercel.app/",
+    "techUsed": "Javascript (react.js), Tailwind",
+    "description": "A simple react application that generates random quotes",
+    "projectActive": false,
+    "github": "https://github.com/alabo-excel/random-quote-generator"
+  },
+  {
+    "name": "Twitter UI Clone",
+    "link": "https://random-quote-generator-alabo-excel.vercel.app/",
+    "techUsed": "Javascript (react.js), Css",
+    "description": "An Uncomplete clone of Twitter UI",
+    "projectActive": false,
+    "github": "https://twitter-clone-alabo-excel.vercel.app/"
+  },
+  {
+    "name": "Loopstudio",
+    "link": "https://flourishing-rabanadas-9b8972.netlify.app/",
+    "techUsed": "Html, Css",
+    "description": "An UI from Frontend mentors challenge",
+    "projectActive": false,
+    "github": "https://github.com/alabo-excel/loops-studio-landingpage"
+  }
+]
