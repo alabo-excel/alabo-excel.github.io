@@ -5,7 +5,7 @@
     <div class="container">
       <div class="row">
         <div class="col-lg-5 intro">
-          <img src="../assets/me.png" class="img mb-lg-1" alt="">
+          <img src="../assets/me.png" class="img mb-lg-1" alt="" />
           <div class="intro-card">
             <div class="heading">
               <h1>
@@ -35,7 +35,7 @@
                 pushing projects on
                 <a target="_blank" href="https://github.com/alabo-excel"
                   >github</a
-                >, or occasionally looking for exciting new stuffs to learn.
+                >, or occasionally looking for exciting new stuffs to learn on youtube 😊.
               </p>
             </div>
 
@@ -264,8 +264,8 @@ export default {
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style>
-.bio-paragraph a{
-  text-decoration: underline
+.bio-paragraph a {
+  text-decoration: underline;
 }
 /* utilities */
 .mobile_top {
@@ -353,7 +353,7 @@ export default {
   color: white;
   text-decoration: none;
 }
-.img{
+.img {
   width: 16%;
 }
 @media (min-width: 1200px) {
@@ -389,6 +389,11 @@ export default {
 @media (max-width: 767.98px) {
   .bio-paragraph {
     font-size: 18px;
+  }
+}
+@media (max-width: 600px) {
+  .img {
+    width: 50%;
   }
 }
 </style>

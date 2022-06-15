@@ -11,7 +11,7 @@
                      Most of my time is spent on learning new technologies in the web to build awesome stuffs.
                   </p>
                   <p>
-                    Outside being a techy, I hangout with few friends and try not to be an introvert in reality while being social on social media, 😊.     
+                     
                   </p>
                 </div>             
 

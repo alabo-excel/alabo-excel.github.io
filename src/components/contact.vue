@@ -30,6 +30,7 @@
           <div class="h4 text-white text-center mb-4 d-md-none">
             Send me an email
           </div>
+
           <div
             class="alert alert-success display_alert"
             role="alert"
@@ -43,6 +44,15 @@
             method="POST"
             v-on:submit.prevent="handleFormSubmit"
           >
+            <input type="hidden" name="_captcha" value="false" />
+            <input
+              type="hidden"
+              name="_subject"
+              value="New profile contact submission!"
+            />
+
+            <!-- <input type="hidden" name="_next" value="http://alaboexcel.me" /> -->
+
             <div class="form-group">
               <input
                 type="text"
@@ -50,6 +60,7 @@
                 name="full_name"
                 placeholder="Full name"
                 required
+                v-model="name"
               />
             </div>
             <div class="form-group mt-5">
@@ -59,6 +70,7 @@
                 name="user_email"
                 placeholder="Email address"
                 required
+                v-model="email"
               />
             </div>
             <div class="form-group mt-5">
@@ -68,6 +80,7 @@
                 name="phone"
                 placeholder="Phone"
                 required
+                v-model="phone"
               />
             </div>
             <div class="form-group mt-5">
@@ -77,6 +90,7 @@
                 name="message"
                 placeholder="Message"
                 required
+                v-model="message"
               ></textarea>
             </div>
             <button
@@ -93,41 +107,61 @@
 </template>
 
 <script>
-import emailjs from "emailjs-com";
+// import emailjs from "emailjs-com";
 
 export default {
   data() {
     return {
       active: false,
       loader: false,
+      name: "",
+      message: "",
+      phone: "",
+      email: "",
     };
   },
   methods: {
     handleFormSubmit: function (e) {
       this.loader = true;
       e.preventDefault();
-      emailjs
-        .sendForm(
-          "gmail",
-          "template_I9TVCcd4",
-          e.target,
-          "user_malZEJsd7ijKbv4lMYiRA"
-        )
-        .then(
-          (result) => {
-            if (result) {
-              document.getElementById("contact_form").reset();
-              document.querySelector(".display_alert").style.display = "block";
-              this.loader = false;
-              setTimeout(() => {
-                document.querySelector(".display_alert").style.display = "none";
-              }, 2500);
-            }
-          },
-          (error) => {
-            alert("An error occured, Please try again", error.text);
+      fetch("https://formsubmit.co/ajax/alaboexcel@gmail.com", {
+        method: "POST",
+        headers: {
+          "Content-Type": "application/json",
+          Accept: "application/json",
+        },
+        body: JSON.stringify({
+          name: this.name,
+          message: this.message,
+          phone: this.phone,
+          email: this.email,
+        }),
+      })
+        .then((response) => response.json())
+        .then((data) => {
+          console.log(data);
+          if (data.success === true) {
+            this.loader = false;
+            this.name = "";
+            this.email = "";
+            this.phone = "";
+            this.message = "";
+            document.querySelector(".display_alert").style.display = "block";
+            this.loader = false;
+            setTimeout(() => {
+              document.querySelector(".display_alert").style.display = "none";
+            }, 2500);
           }
-        );
+        })
+        .catch((error) => {
+          console.log(error);
+          alert("An error occured, Please try again", error.text);
+          this.loader = false;
+          this.name = "";
+          this.email = "";
+          this.phone = "";
+          this.message = "";
+        });
     },
   },
 };
