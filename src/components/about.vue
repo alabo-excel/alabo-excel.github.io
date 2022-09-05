@@ -5,14 +5,10 @@
 
       <div class="about-card">
         <p>
-          I’m a hard-working , talented, and self-motivated frontend developer
+          I’m a talented, and self-motivated frontend developer
           and with a solid technical background and useful skills ranging from
           self-discipline, teamwork, I'm capable of learning and working with
           new technologies swiftly with minimum supervision..
-        </p>
-        <p>
-          Most of my time is spent on learning new technologies in the web to
-          build awesome stuffs.
         </p>
         <p>
           I spend most of my time is spent on learning new technologies around
@@ -24,7 +20,7 @@
           ReactJS, NextJS, VueJS, Nuxt, Vuex, Tailwindcss, Typescript, Bootstrap,
           GraphQL, Redux-Toolkit, Firebase, Supabase... and other dot js libraries.
         </p>
-        <p>I also have experience designing minimalistic User interfaces on FIGMA</p>
+        <p>I also have experience designing minimalistic User interfaces with FIGMA</p>
       </div>
     </div>
   </div>
