@@ -1,11 +1,35 @@
 [
   {
+    "name": "Gameverse Africa",
+    "link": "https://gameverse.africa/",
+    "techUsed": "Javascript (React), Tailwind",
+    "description": "Gameverse Africa Conference 22’  A universe of game designers, developers, game writers, gamers etc to build, connect and promote the Africa gaming culture.",
+    "projectActive": false,
+    "github": "https://github.com/Six-Path-Studio/gameverse-africa"
+  },
+  {
+    "name": "IBURA FARMS",
+    "link": "https://iburafarms.com/",
+    "techUsed": "Javascript (Vue), Tailwind",
+    "description": "Ibura Farms Limited is one of the leading Agribusiness company that is transforming and driving growth in the agri-sector through sustainable and innovative ideas.",
+    "projectActive": false,
+    "github": "https://github.com/Ensio-Creative/iburafarms"
+  },
+  {
     "name": "Extend Africa",
     "link": "https://extend.africa/",
     "techUsed": "Javascript (Vue), Vite, Bootstrap",
     "description": "Extend Africa is a community for the immersive tech ecosystem in Africa, Check it out!!!",
     "projectActive": false,
     "github": "https://github.com/alabo-excel/extend-africa-web"
+  },
+  {
+    "name": "Paxoil",
+    "link": "https://paxoilandgas.com/",
+    "techUsed": "Javascript (React), Tailwind",
+    "description": "Paxoil is an indigenous Nigerian servicing company led by highly skilled professionals in the oil & gas and sector operating independently with flexibility in providing engineering services to our clients from fabrication to project support. ",
+    "projectActive": false,
+    "github": "https://github.com/Ensio-Creative/paxoil"
   },
   {
     "name": "Accelerate Innovation Hub",
@@ -16,20 +40,20 @@
     "github": "https://github.com/AccelerateHub/acceleratehub-website"
   },
   {
+    "name": "CARMEL’S GROUP    ",
+    "link": "https://www.carmelsgroup.com/",
+    "techUsed": "Javascript (Vue), Tailwind",
+    "description": "Carmels Group is a diversified business group that brings a number of specialist businesses which have earned a solid reputation across different industrial sectors.",
+    "projectActive": false,
+    "github": "https://github.com/Ensio-Creative/carmelsGroup"
+  },
+  {
     "name": "Louis Whyte Portfolio",
-    "link": "https://louis-whyte.vercel.app/",
+    "link": "https://louiswhyte.me/",
     "techUsed": "Javascript (React.js), Tailwind, Framer Motion",
     "description": "Personal Portfolio for Louis Whyte Jonah a UX designer that focuses on solving problems via design and technology.",
     "projectActive": false,
     "github": "https://github.com/LouiswhyteTM/Portfolio"
-  },
-  {
-    "name": "Trustpaddi Landing Page",
-    "link": "https://trust-paddi.netlify.app/",
-    "techUsed": "Javascript (Vue.js), Tailwind",
-    "description": "Trustpadd is an application that allows users to  Transact Securely with online vendors & marketplaces, gain customers trust.",
-    "projectActive": false,
-    "github": "https://github.com/savvilly/turstpaddi-website"
   },
   {
     "name": "Virtual Employee landing page",
@@ -38,29 +62,5 @@
     "description": "A landing page for a talents recuritment agency",
     "projectActive": false,
     "github": "https://github.com/alabo-excel/virtual-employee"
-  },
-  {
-    "name": "Randon Quote Generator",
-    "link": "https://random-quote-generator-alabo-excel.vercel.app/",
-    "techUsed": "Javascript (react.js), Tailwind",
-    "description": "A simple react application that generates random quotes",
-    "projectActive": false,
-    "github": "https://github.com/alabo-excel/random-quote-generator"
-  },
-  {
-    "name": "Twitter UI Clone",
-    "link": "https://random-quote-generator-alabo-excel.vercel.app/",
-    "techUsed": "Javascript (react.js), Css",
-    "description": "An Uncomplete clone of Twitter UI",
-    "projectActive": false,
-    "github": "https://twitter-clone-alabo-excel.vercel.app/"
-  },
-  {
-    "name": "Loopstudio",
-    "link": "https://flourishing-rabanadas-9b8972.netlify.app/",
-    "techUsed": "Html, Css",
-    "description": "An UI from Frontend mentors challenge",
-    "projectActive": false,
-    "github": "https://github.com/alabo-excel/loops-studio-landingpage"
   }
 ]
