@@ -1,5 +1,29 @@
 [
   {
+    "name": "Pentria",
+    "link": "https://www.pentria.app/",
+    "techUsed": "Javascript (Next), Tailwind",
+    "description": "Pentria is an Online Ticketing platform.",
+    "projectActive": false,
+    "github": "https://github.com/alabo-excel"
+  },
+  {
+    "name": "Arfed",
+    "link": "https://www.arfed.live/",
+    "techUsed": "Javascript (Next), Tailwind, Node.js, Express",
+    "description": "ARFed is an innovative web-based augmented reality application that brings classroom topics to life in stunning 3D visuals.",
+    "projectActive": false,
+    "github": "https://github.com/alabo-excel"
+  },
+    {
+    "name": "Harbour Hubs",
+    "link": "https://www.harbourhubs.com/",
+    "techUsed": "Javascript (Vue), Tailwind",
+    "description": "Harbour Hubs is an online platform to sell and Buy Offshore equipment.",
+    "projectActive": false,
+    "github": "https://github.com/alabo-excel"
+  },
+  {
     "name": "Gameverse Africa",
     "link": "https://gameverse.africa/",
     "techUsed": "Javascript (React), Tailwind",
