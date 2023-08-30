@@ -78,13 +78,5 @@
     "description": "Personal Portfolio for Louis Whyte Jonah a UX designer that focuses on solving problems via design and technology.",
     "projectActive": false,
     "github": "https://github.com/LouiswhyteTM/Portfolio"
-  },
-  {
-    "name": "Virtual Employee landing page",
-    "link": "https://virtual-employee.vercel.app/",
-    "techUsed": "Javascript (react.js), Tailwind",
-    "description": "A landing page for a talents recuritment agency",
-    "projectActive": false,
-    "github": "https://github.com/alabo-excel/virtual-employee"
   }
 ]

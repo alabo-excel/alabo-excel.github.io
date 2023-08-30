@@ -4,9 +4,9 @@
 
     <div class="container">
       <div class="row">
-        <div class="col-lg-5 intro">
+        <div class="intro">
           <img src="../assets/me.png" class="img mb-lg-1" alt="" />
-          <div class="intro-card">
+          <div class="">
             <div class="heading">
               <h1>
                 Hello <img src="../assets/wave.png" alt="" />, I’m Alabo Excel.
@@ -14,35 +14,32 @@
             </div>
             <div class="bio-paragraph">
               <p>
-                I’m a Front-end web developer
+                I’m a Software Developer
                 based in Port Harcourt, Nigeria.
               </p>
               <p>
                 I'm usually somewhere on the internet. You can find me checking
                 out trends on
-                <a target="_blank" href="https://twitter.com/alaboExcel"
-                  >twitter</a
-                >, exploring
-                <a
-                  target="_blank"
-                  href="https://web.facebook.com/alabo.kurotams"
-                  >facebook</a
-                >
+                <a target="_blank" href="https://twitter.com/alaboExcel">twitter</a>, exploring
+                <a target="_blank" href="https://web.facebook.com/alabo.kurotams">facebook</a>
                 contents, sharing my knowledge through writing on
-                <a target="_blank" href="https://alabo-excel.hashnode.dev/"
-                  >hashnode,</a
-                >
+                <a target="_blank" href="https://alabo-excel.hashnode.dev/">hashnode,</a>
                 pushing projects on
-                <a target="_blank" href="https://github.com/alabo-excel"
-                  >github</a
-                >, or occasionally looking for exciting new stuffs to learn on youtube 😊.
+                <a target="_blank" href="https://github.com/alabo-excel">github</a>, or occasionally looking for exciting
+                new stuffs to learn on youtube 😊.
               </p>
             </div>
+            <a href="https://docs.google.com/document/d/16mwP_8AeZIzcnDPxny6BXKxhZR8kfH1WKRkXRF2oTKE/edit?usp=sharing"
+              target="_blank">
+              <button class="btn-resume">
+                View Resume
+              </button>
+            </a>
 
             <div id="list-example" class="nav">
               <ul>
                 <li class="">
-                  <a class="list-group-item active" href="#home">
+                  <a class="list-group-item active" href="#projects">
                     <span class="mr-2">01</span>
                     <span class="nav-line mr-2 d-inline-block"></span>
                     <span>Projects</span>
@@ -68,139 +65,77 @@
             <div class="socials mt-5 mt-lg-0 mb-5">
               <ul>
                 <li class="mx-3">
-                  <a
-                    href="https://twitter.com/alaboExcel"
-                    rel="noopener"
-                    target="_blank"
-                    class="flex items-center"
-                  >
-                    <svg
-                      xmlns="http://www.w3.org/2000/svg"
-                      class="mr-2"
-                      viewBox="0 0 24 24"
-                      style="fill: white"
-                      aria-hidden="true"
-                      width="16"
-                      height="16"
-                    >
+                  <a href="https://twitter.com/alaboExcel" rel="noopener" target="_blank" class="flex items-center">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="mr-2" viewBox="0 0 24 24" style="fill: white"
+                      aria-hidden="true" width="16" height="16">
                       <title>Twitter icon</title>
                       <path
-                        d="M24 4.557a9.83 9.83 0 01-2.828.775 4.932 4.932 0 002.165-2.724 9.864 9.864 0 01-3.127 1.195 4.916 4.916 0 00-3.594-1.555c-3.179 0-5.515 2.966-4.797 6.045A13.978 13.978 0 011.671 3.149a4.93 4.93 0 001.523 6.574 4.903 4.903 0 01-2.229-.616c-.054 2.281 1.581 4.415 3.949 4.89a4.935 4.935 0 01-2.224.084 4.928 4.928 0 004.6 3.419A9.9 9.9 0 010 19.54a13.94 13.94 0 007.548 2.212c9.142 0 14.307-7.721 13.995-14.646A10.025 10.025 0 0024 4.557z"
-                      ></path>
+                        d="M24 4.557a9.83 9.83 0 01-2.828.775 4.932 4.932 0 002.165-2.724 9.864 9.864 0 01-3.127 1.195 4.916 4.916 0 00-3.594-1.555c-3.179 0-5.515 2.966-4.797 6.045A13.978 13.978 0 011.671 3.149a4.93 4.93 0 001.523 6.574 4.903 4.903 0 01-2.229-.616c-.054 2.281 1.581 4.415 3.949 4.89a4.935 4.935 0 01-2.224.084 4.928 4.928 0 004.6 3.419A9.9 9.9 0 010 19.54a13.94 13.94 0 007.548 2.212c9.142 0 14.307-7.721 13.995-14.646A10.025 10.025 0 0024 4.557z">
+                      </path>
                     </svg>
                     <span class="mt-px">Twitter</span>
                     <span class="w-16 p-2 ml-8">
-                      <svg
-                        xmlns="http://www.w3.org/2000/svg"
-                        fill="none"
-                        width="16"
-                        height="16"
-                        stroke="currentColor"
-                        stroke-linecap="round"
-                        stroke-linejoin="round"
-                        viewBox="0 0 12 12"
-                        aria-hidden="true"
-                        class="flex-none stroke-current"
-                      >
+                      <svg xmlns="http://www.w3.org/2000/svg" fill="none" width="16" height="16" stroke="currentColor"
+                        stroke-linecap="round" stroke-linejoin="round" viewBox="0 0 12 12" aria-hidden="true"
+                        class="flex-none stroke-current">
                         <title>External link icon</title>
                         <path
-                          d="M10.976 1.193A.314.314 0 0010.687 1H6.312a.313.313 0 000 .625h3.62L5.467 6.091a.313.313 0 00.443.442l4.466-4.466v3.62a.313.313 0 00.625 0V1.313a.328.328 0 00-.024-.119z"
-                        ></path>
+                          d="M10.976 1.193A.314.314 0 0010.687 1H6.312a.313.313 0 000 .625h3.62L5.467 6.091a.313.313 0 00.443.442l4.466-4.466v3.62a.313.313 0 00.625 0V1.313a.328.328 0 00-.024-.119z">
+                        </path>
                         <path
-                          d="M3.5 1v.625H2.25a.625.625 0 00-.625.625v7.5c0 .345.28.625.625.625h7.5c.345 0 .625-.28.625-.625V8.5H11v1.875c0 .345-.28.625-.625.625h-8.75A.625.625 0 011 10.375v-8.75C1 1.28 1.28 1 1.625 1H3.5z"
-                        ></path>
+                          d="M3.5 1v.625H2.25a.625.625 0 00-.625.625v7.5c0 .345.28.625.625.625h7.5c.345 0 .625-.28.625-.625V8.5H11v1.875c0 .345-.28.625-.625.625h-8.75A.625.625 0 011 10.375v-8.75C1 1.28 1.28 1 1.625 1H3.5z">
+                        </path>
                       </svg>
                     </span>
                   </a>
                 </li>
 
                 <li class="mx-3">
-                  <a
-                    href="https://www.linkedin.com/in/alabo-excel/"
-                    rel="noopener"
-                    target="_blank"
-                    class="flex items-center"
-                  >
-                    <svg
-                      xmlns="http://www.w3.org/2000/svg"
-                      width="16"
-                      height="16"
-                      viewBox="0 0 24 24"
-                      fill="white"
-                      class="mr-2 mb-1"
-                    >
+                  <a href="https://www.linkedin.com/in/alabo-excel/" rel="noopener" target="_blank"
+                    class="flex items-center">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="white"
+                      class="mr-2 mb-1">
                       <path
-                        d="M4.98 3.5c0 1.381-1.11 2.5-2.48 2.5s-2.48-1.119-2.48-2.5c0-1.38 1.11-2.5 2.48-2.5s2.48 1.12 2.48 2.5zm.02 4.5h-5v16h5v-16zm7.982 0h-4.968v16h4.969v-8.399c0-4.67 6.029-5.052 6.029 0v8.399h4.988v-10.131c0-7.88-8.922-7.593-11.018-3.714v-2.155z"
-                      />
+                        d="M4.98 3.5c0 1.381-1.11 2.5-2.48 2.5s-2.48-1.119-2.48-2.5c0-1.38 1.11-2.5 2.48-2.5s2.48 1.12 2.48 2.5zm.02 4.5h-5v16h5v-16zm7.982 0h-4.968v16h4.969v-8.399c0-4.67 6.029-5.052 6.029 0v8.399h4.988v-10.131c0-7.88-8.922-7.593-11.018-3.714v-2.155z" />
                     </svg>
                     <span class="mt-px">Linkedin</span>
                     <span class="w-16 p-2 ml-8">
-                      <svg
-                        xmlns="http://www.w3.org/2000/svg"
-                        fill="none"
-                        width="16"
-                        height="16"
-                        stroke="currentColor"
-                        stroke-linecap="round"
-                        stroke-linejoin="round"
-                        viewBox="0 0 12 12"
-                        aria-hidden="true"
-                        class="flex-none stroke-current"
-                      >
+                      <svg xmlns="http://www.w3.org/2000/svg" fill="none" width="16" height="16" stroke="currentColor"
+                        stroke-linecap="round" stroke-linejoin="round" viewBox="0 0 12 12" aria-hidden="true"
+                        class="flex-none stroke-current">
                         <title>External link icon</title>
                         <path
-                          d="M10.976 1.193A.314.314 0 0010.687 1H6.312a.313.313 0 000 .625h3.62L5.467 6.091a.313.313 0 00.443.442l4.466-4.466v3.62a.313.313 0 00.625 0V1.313a.328.328 0 00-.024-.119z"
-                        ></path>
+                          d="M10.976 1.193A.314.314 0 0010.687 1H6.312a.313.313 0 000 .625h3.62L5.467 6.091a.313.313 0 00.443.442l4.466-4.466v3.62a.313.313 0 00.625 0V1.313a.328.328 0 00-.024-.119z">
+                        </path>
                         <path
-                          d="M3.5 1v.625H2.25a.625.625 0 00-.625.625v7.5c0 .345.28.625.625.625h7.5c.345 0 .625-.28.625-.625V8.5H11v1.875c0 .345-.28.625-.625.625h-8.75A.625.625 0 011 10.375v-8.75C1 1.28 1.28 1 1.625 1H3.5z"
-                        ></path>
+                          d="M3.5 1v.625H2.25a.625.625 0 00-.625.625v7.5c0 .345.28.625.625.625h7.5c.345 0 .625-.28.625-.625V8.5H11v1.875c0 .345-.28.625-.625.625h-8.75A.625.625 0 011 10.375v-8.75C1 1.28 1.28 1 1.625 1H3.5z">
+                        </path>
                       </svg>
                     </span>
                   </a>
                 </li>
 
                 <li class="mx-3">
-                  <a
-                    href="https://github.com/alabo-excel"
-                    rel="noopener"
-                    target="_blank"
-                    class="flex items-center"
-                  >
-                    <svg
-                      xmlns="http://www.w3.org/2000/svg"
-                      viewBox="0 0 24 24"
-                      class="mr-3"
-                      style="fill: white"
-                      width="16"
-                      height="16"
-                      aria-hidden="true"
-                    >
+                  <a href="https://github.com/alabo-excel" rel="noopener" target="_blank" class="flex items-center">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" class="mr-3" style="fill: white"
+                      width="16" height="16" aria-hidden="true">
                       <title>GitHub icon</title>
                       <path
-                        d="M12 .297c-6.63 0-12 5.373-12 12 0 5.303 3.438 9.8 8.205 11.385.6.113.82-.258.82-.577 0-.285-.01-1.04-.015-2.04-3.338.724-4.042-1.61-4.042-1.61C4.422 18.07 3.633 17.7 3.633 17.7c-1.087-.744.084-.729.084-.729 1.205.084 1.838 1.236 1.838 1.236 1.07 1.835 2.809 1.305 3.495.998.108-.776.417-1.305.76-1.605-2.665-.3-5.466-1.332-5.466-5.93 0-1.31.465-2.38 1.235-3.22-.135-.303-.54-1.523.105-3.176 0 0 1.005-.322 3.3 1.23.96-.267 1.98-.399 3-.405 1.02.006 2.04.138 3 .405 2.28-1.552 3.285-1.23 3.285-1.23.645 1.653.24 2.873.12 3.176.765.84 1.23 1.91 1.23 3.22 0 4.61-2.805 5.625-5.475 5.92.42.36.81 1.096.81 2.22 0 1.606-.015 2.896-.015 3.286 0 .315.21.69.825.57C20.565 22.092 24 17.592 24 12.297c0-6.627-5.373-12-12-12"
-                      ></path>
+                        d="M12 .297c-6.63 0-12 5.373-12 12 0 5.303 3.438 9.8 8.205 11.385.6.113.82-.258.82-.577 0-.285-.01-1.04-.015-2.04-3.338.724-4.042-1.61-4.042-1.61C4.422 18.07 3.633 17.7 3.633 17.7c-1.087-.744.084-.729.084-.729 1.205.084 1.838 1.236 1.838 1.236 1.07 1.835 2.809 1.305 3.495.998.108-.776.417-1.305.76-1.605-2.665-.3-5.466-1.332-5.466-5.93 0-1.31.465-2.38 1.235-3.22-.135-.303-.54-1.523.105-3.176 0 0 1.005-.322 3.3 1.23.96-.267 1.98-.399 3-.405 1.02.006 2.04.138 3 .405 2.28-1.552 3.285-1.23 3.285-1.23.645 1.653.24 2.873.12 3.176.765.84 1.23 1.91 1.23 3.22 0 4.61-2.805 5.625-5.475 5.92.42.36.81 1.096.81 2.22 0 1.606-.015 2.896-.015 3.286 0 .315.21.69.825.57C20.565 22.092 24 17.592 24 12.297c0-6.627-5.373-12-12-12">
+                      </path>
                     </svg>
                     <span class="mt-px">GitHub</span>
                     <span class="w-16 p-2 ml-8">
-                      <svg
-                        xmlns="http://www.w3.org/2000/svg"
-                        fill="none"
-                        width="16"
-                        height="16"
-                        stroke="currentColor"
-                        stroke-linecap="round"
-                        stroke-linejoin="round"
-                        viewBox="0 0 12 12"
-                        aria-hidden="true"
-                        class="flex-none stroke-current"
-                      >
+                      <svg xmlns="http://www.w3.org/2000/svg" fill="none" width="16" height="16" stroke="currentColor"
+                        stroke-linecap="round" stroke-linejoin="round" viewBox="0 0 12 12" aria-hidden="true"
+                        class="flex-none stroke-current">
                         <title>External link icon</title>
                         <path
-                          d="M10.976 1.193A.314.314 0 0010.687 1H6.312a.313.313 0 000 .625h3.62L5.467 6.091a.313.313 0 00.443.442l4.466-4.466v3.62a.313.313 0 00.625 0V1.313a.328.328 0 00-.024-.119z"
-                        ></path>
+                          d="M10.976 1.193A.314.314 0 0010.687 1H6.312a.313.313 0 000 .625h3.62L5.467 6.091a.313.313 0 00.443.442l4.466-4.466v3.62a.313.313 0 00.625 0V1.313a.328.328 0 00-.024-.119z">
+                        </path>
                         <path
-                          d="M3.5 1v.625H2.25a.625.625 0 00-.625.625v7.5c0 .345.28.625.625.625h7.5c.345 0 .625-.28.625-.625V8.5H11v1.875c0 .345-.28.625-.625.625h-8.75A.625.625 0 011 10.375v-8.75C1 1.28 1.28 1 1.625 1H3.5z"
-                        ></path>
+                          d="M3.5 1v.625H2.25a.625.625 0 00-.625.625v7.5c0 .345.28.625.625.625h7.5c.345 0 .625-.28.625-.625V8.5H11v1.875c0 .345-.28.625-.625.625h-8.75A.625.625 0 011 10.375v-8.75C1 1.28 1.28 1 1.625 1H3.5z">
+                        </path>
                       </svg>
                     </span>
                   </a>
@@ -211,8 +146,9 @@
         </div>
 
         <!-- ASIDE -->
-        <div class="col-lg-6 ml-auto">
+        <div class=" ml-auto">
           <div data-spy="scroll" data-target="#list-example" data-offset="0">
+            <div id="projects"></div>
             <Projects />
 
             <div id="about"></div>
@@ -267,16 +203,29 @@ export default {
 .bio-paragraph a {
   text-decoration: underline;
 }
+
+.btn-resume {
+  background-color: white;
+  padding: 12px;
+  border: none;
+  width: 20%;
+  font-weight: bold;
+  color: black;
+}
+
 /* utilities */
 .mobile_top {
   display: none;
 }
+
 .container {
   padding-top: 25px;
 }
-.intro {
+
+/* .intro {
   position: fixed;
-}
+} */
+
 .intro-card {
   width: 450px;
 }
@@ -291,6 +240,7 @@ export default {
   color: #fff;
   line-height: 28px;
 }
+
 .bio-paragraph a:hover {
   color: inherit;
 }
@@ -299,12 +249,15 @@ export default {
 .nav {
   margin-top: 2px;
 }
+
 .nav ul {
   list-style: none;
 }
+
 .nav ul li {
   margin: 26px 0px;
 }
+
 .nav ul li a {
   letter-spacing: 3px;
   font-size: 10px;
@@ -312,6 +265,7 @@ export default {
   color: #fff;
   text-transform: uppercase;
 }
+
 .nav .nav-line {
   width: 24px;
   border-bottom: 1px solid #fff;
@@ -325,15 +279,18 @@ export default {
   background-color: transparent;
   border: 0;
 }
+
 .nav li:hover a,
 .nav li .list-group-item.active {
   color: white;
 }
+
 .nav li:hover .nav-line,
 .nav .list-group-item.active .nav-line {
   border-color: white;
   width: 48px;
 }
+
 .list-group-item.active {
   background-color: transparent;
 }
@@ -342,6 +299,7 @@ export default {
 .socials ul {
   list-style: none;
 }
+
 .socials ul {
   display: flex;
   flex-wrap: wrap;
@@ -349,13 +307,16 @@ export default {
   justify-content: center;
   row-gap: 20px;
 }
+
 .socials ul li a:hover {
   color: white;
   text-decoration: none;
 }
+
 .img {
   width: 16%;
 }
+
 @media (min-width: 1200px) {
   .container {
     max-width: 1250px !important;
@@ -366,15 +327,24 @@ export default {
   .container {
     padding-top: 20px;
   }
+
   .intro {
     position: static;
+    padding: 10px;
   }
+
   .heading h1 {
     font-size: 48px;
   }
+
   .intro-card {
     width: 100%;
   }
+
+  .btn-resume {
+    width: 100%;
+  }
+
   .nav {
     display: none;
   }
@@ -391,9 +361,9 @@ export default {
     font-size: 18px;
   }
 }
+
 @media (max-width: 600px) {
   .img {
     width: 50%;
   }
-}
-</style>
+}</style>

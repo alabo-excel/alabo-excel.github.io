@@ -17,35 +17,49 @@ export default {
 
 <style>
 @import url('https://fonts.googleapis.com/css2?family=Gothic+A1:wght@300;400;500;600;700;800;900&display=swap');
-:root{
+
+:root {
   --bg-opacity: 1;
 }
-*{
+
+* {
   margin: 0;
   padding: 0;
+  /* overflow-x: hidden !important; */
 }
+
+input:focus,
+button:focus,
+textarea:focus {
+  outline: none;
+}
+
 html {
-    scroll-behavior: smooth;
+  scroll-behavior: smooth;
 }
-body{
+
+body {
   font-size: 14px;
   box-sizing: border-box;
   font-family: 'Gothic A1', sans-serif;
-  background-color: #03254E;
+  background-color: #0C0C0C;
   color: white;
   height: 100vh;
   scroll-behavior: smooth;
   width: 100%;
   position: relative;
+  /* overflow-x: hidden !important; */
 }
-a{
+
+a {
   color: white;
   text-decoration: none;
 }
+
 /* SCROLL BAR */
-.section-header{
+/* .section-header{
   display: none;
-}
+} */
 /* width */
 ::-webkit-scrollbar {
   width: 10px;
@@ -58,21 +72,27 @@ a{
 
 /* Handle */
 ::-webkit-scrollbar-thumb {
-  background: #0C1B33;
+  background: #0C0C0C;
 }
 
 /* Handle on hover */
 ::-webkit-scrollbar-thumb:hover {
-  background: #03254E;
+  background: #000001;
 }
+
 @media (max-width:991.98px) {
-  .section-header{
+  * {
+    overflow-x: hidden !important;
+  }
+
+  .section-header {
     padding: 24px 0px;
     display: block;
     font-size: 12px;
     text-transform: uppercase;
     letter-spacing: 3px;
     z-index: 999999;
+    text-align: center;
+    background-color: #0C0C0C;
   }
-}
-</style>
+}</style>

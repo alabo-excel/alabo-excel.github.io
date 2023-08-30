@@ -1,7 +1,7 @@
 <template>
   <div>
     <div class="contact">
-      <h2 class="section-header sticky-top">Contact</h2>
+      <h2 class="section-header text-center sticky-top">Contact</h2>
       <div class="row">
         <div
           v-if="loader"
@@ -95,7 +95,7 @@
             </div>
             <button
               type="submit"
-              class="btn btn-default btn_send w-100 mt-2 text-white"
+              class="btn btn-default btn_send bg-white w-100 mt-2"
             >
               Send
             </button>
@@ -177,7 +177,7 @@ export default {
 .contact-card {
   padding: 40px;
   --bg-opacity: 1;
-  background-color: #0c1b33;
+  background-color: #000001;
   transition: all 0.3s ease;
   margin-bottom: 10px;
   margin: 5px;
@@ -185,7 +185,7 @@ export default {
 }
 
 .form-control {
-  background-color: #0c1b33;
+  background-color: #000001;
   border-left: none;
   border-right: none;
   border-top: none;
