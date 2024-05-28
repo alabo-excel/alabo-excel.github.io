@@ -9,24 +9,24 @@
   },
   {
     "name": "Arfed",
-    "link": "https://www.arfed.live/",
+    "link": "https://ar-fed.vercel.app/",
     "techUsed": "Javascript (Next), Tailwind, Node.js, Express",
     "description": "ARFed is an innovative web-based augmented reality application that brings classroom topics to life in stunning 3D visuals.",
     "projectActive": false,
     "github": "https://github.com/alabo-excel"
   },
     {
-    "name": "Harbour Hubs",
-    "link": "https://www.harbourhubs.com/",
-    "techUsed": "Javascript (Vue), Tailwind",
-    "description": "Harbour Hubs is an online platform to sell and Buy Offshore equipment.",
+    "name": "Finishing Warehouse",
+    "link": "https://finishingwarehouse.com/",
+    "techUsed": "Javascript (Vue), Tailwind, Nuxt",
+    "description": "Finishing Warehouse Nigeria Limited is dedicated to promoting sustainability and environmental responsibility in the housing finishing industry.",
     "projectActive": false,
     "github": "https://github.com/alabo-excel"
   },
   {
     "name": "Gameverse Africa",
-    "link": "https://gameverse.africa/",
-    "techUsed": "Javascript (React), Tailwind",
+    "link": "https://www.gameverse.africa/",
+    "techUsed": "Javascript (React), Next, Tailwind",
     "description": "Gameverse Africa Conference 22’  A universe of game designers, developers, game writers, gamers etc to build, connect and promote the Africa gaming culture.",
     "projectActive": false,
     "github": "https://github.com/Six-Path-Studio/gameverse-africa"
@@ -40,12 +40,12 @@
     "github": "https://github.com/Ensio-Creative/iburafarms"
   },
   {
-    "name": "Extend Africa",
-    "link": "https://extend.africa/",
-    "techUsed": "Javascript (Vue), Vite, Bootstrap",
-    "description": "Extend Africa is a community for the immersive tech ecosystem in Africa, Check it out!!!",
+    "name": "Experthub Trainings",
+    "link": "https://trainings.experthubllc.com/",
+    "techUsed": "Javascript (React), Next, Node, Tailwind",
+    "description": "Experthub trainings is a community for tech enthusiasts. ",
     "projectActive": false,
-    "github": "https://github.com/alabo-excel/extend-africa-web"
+    "github": "https://github.com/alabo-excel"
   },
   {
     "name": "Paxoil",
@@ -56,27 +56,11 @@
     "github": "https://github.com/Ensio-Creative/paxoil"
   },
   {
-    "name": "Accelerate Innovation Hub",
-    "link": "https://acceleratehub.co/",
-    "techUsed": "Vue (Nuxt), Css, Bootstrap",
-    "description": "Accelerate Innovation Hub is a tech community that facilitates development in technology, entrepreneurship, through mentorship, trainings, collaboration, events",
-    "projectActive": false,
-    "github": "https://github.com/AccelerateHub/acceleratehub-website"
-  },
-  {
     "name": "CARMEL’S GROUP    ",
     "link": "https://www.carmelsgroup.com/",
     "techUsed": "Javascript (Vue), Tailwind",
     "description": "Carmels Group is a diversified business group that brings a number of specialist businesses which have earned a solid reputation across different industrial sectors.",
     "projectActive": false,
     "github": "https://github.com/Ensio-Creative/carmelsGroup"
-  },
-  {
-    "name": "Louis Whyte Portfolio",
-    "link": "https://louiswhyte.me/",
-    "techUsed": "Javascript (React.js), Tailwind, Framer Motion",
-    "description": "Personal Portfolio for Louis Whyte Jonah a UX designer that focuses on solving problems via design and technology.",
-    "projectActive": false,
-    "github": "https://github.com/LouiswhyteTM/Portfolio"
   }
 ]
