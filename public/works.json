@@ -1,9 +1,17 @@
 [
   {
-    "name": "Pentria",
-    "link": "https://www.pentria.app/",
-    "techUsed": "Javascript (Next), Tailwind",
-    "description": "Pentria is an Online Ticketing platform.",
+    "name": "Aim Vfx",
+    "link": "http://aimvfx.co/",
+    "techUsed": "Javascript (Next), Tailwind, Framer",
+    "description": "Portfolio for Astonish, a motion designer and storyteller.",
+    "projectActive": false,
+    "github": "https://github.com/alabo-excel/"
+  },
+   {
+    "name": "Emergensee",
+    "link": "https://dashboard.emergenseeng.info/",
+    "techUsed": "Javascript (Next), Tailwind, Node.js, Express, React Native",
+    "description": "Emergensee app is a mobile application that helps community residents report emergencies they witness, providing useful information to help emergency responders, hospitals and medical staff.",
     "projectActive": false,
     "github": "https://github.com/alabo-excel"
   },
@@ -15,7 +23,7 @@
     "projectActive": false,
     "github": "https://github.com/alabo-excel"
   },
-    {
+  {
     "name": "Finishing Warehouse",
     "link": "https://finishingwarehouse.com/",
     "techUsed": "Javascript (Vue), Tailwind, Nuxt",
@@ -24,20 +32,20 @@
     "github": "https://github.com/alabo-excel"
   },
   {
-    "name": "Gameverse Africa",
-    "link": "https://www.gameverse.africa/",
+    "name": "MDX",
+    "link": "https://mdxperience.org/",
     "techUsed": "Javascript (React), Next, Tailwind",
-    "description": "Gameverse Africa Conference 22’  A universe of game designers, developers, game writers, gamers etc to build, connect and promote the Africa gaming culture.",
+    "description": "MDX is a lively community of motion design enthusiasts passionate about creativity and collaboration. ",
     "projectActive": false,
-    "github": "https://github.com/Six-Path-Studio/gameverse-africa"
+    "github": "https://github.com/alabo-excel"
   },
   {
-    "name": "IBURA FARMS",
-    "link": "https://iburafarms.com/",
+    "name": "Apexium Solutions",
+    "link": "https://apexiumsolutions.com.ng/",
     "techUsed": "Javascript (Vue), Tailwind",
-    "description": "Ibura Farms Limited is one of the leading Agribusiness company that is transforming and driving growth in the agri-sector through sustainable and innovative ideas.",
+    "description": "Tech company website",
     "projectActive": false,
-    "github": "https://github.com/Ensio-Creative/iburafarms"
+    "github": "https://github.com/alabo-excel"
   },
   {
     "name": "Experthub Trainings",
@@ -46,21 +54,5 @@
     "description": "Experthub trainings is a community for tech enthusiasts. ",
     "projectActive": false,
     "github": "https://github.com/alabo-excel"
-  },
-  {
-    "name": "Paxoil",
-    "link": "https://paxoilandgas.com/",
-    "techUsed": "Javascript (React), Tailwind",
-    "description": "Paxoil is an indigenous Nigerian servicing company led by highly skilled professionals in the oil & gas and sector operating independently with flexibility in providing engineering services to our clients from fabrication to project support. ",
-    "projectActive": false,
-    "github": "https://github.com/Ensio-Creative/paxoil"
-  },
-  {
-    "name": "CARMEL’S GROUP    ",
-    "link": "https://www.carmelsgroup.com/",
-    "techUsed": "Javascript (Vue), Tailwind",
-    "description": "Carmels Group is a diversified business group that brings a number of specialist businesses which have earned a solid reputation across different industrial sectors.",
-    "projectActive": false,
-    "github": "https://github.com/Ensio-Creative/carmelsGroup"
   }
 ]
